@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #red-circle{
+            width: 150px;
+            height: 150px;
+            margin: 50px;
+            float: left;
+            border-radius: 50%;
+            background-color: red;
+        }
+
+        #blue-circle{
+            width: 150px;
+            height: 150px;
+            margin: 50px;
+            float: left;
+            border-radius: 50%;
+            background-color: blue;
+        }
+
+        #yellow-circle{
+            width: 150px;
+            height: 150px;
+            margin: 50px;
+            float: left;
+            border-radius: 50%;
+            background-color: yellow;
+
+        }
+
+    </style>
+</head>
+<body>
+    <p id="red-circle"></p>
+    <p id="blue-circle"></p>
+    <p id="yellow-circle"></p>
+    <script>
+        document.getElementById('red-circle').onclick=function(){
+            document.getElementById('red-circle').style.display="none";
+        }
+
+        document.getElementById('blue-circle').onclick=function(){
+            document.getElementById('blue-circle').style.display="none";
+        }
+
+        document.getElementById('yellow-circle').onclick=function(){
+            document.getElementById('yellow-circle').style.display="none";
+        }
+    </script>
+</body>
+</html>
